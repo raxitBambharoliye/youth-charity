@@ -1,0 +1,99 @@
+@import url(them.css);
+main .contact-banner {
+  background-image: url(../image/contact/contact-us-bg.png);
+  background-size: cover;
+  padding: 200px 0;
+}
+main .address {
+  margin: 50px 0;
+}
+main .address .address-item {
+  padding: 30px;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(136, 136, 136, 0.519);
+}
+main .address .address-item h3 {
+  color: var(--sub-titel);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+main .address .address-item ul li {
+  color: var(--text-gray);
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+main .address .address-item ul li i {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+main .contact-us {
+  padding: 100px 0;
+  background-image: url(../image/home/contact-us-bg.jpg);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+main .contact-us ul {
+  margin-left: 20px;
+}
+main .contact-us ul li {
+  margin-top: 20px;
+}
+main .contact-us ul li h3 {
+  font-size: 25px;
+}
+main .contact-us ul li h3 i {
+  margin-right: 10px;
+  font-size: 22px;
+}
+main .contact-us ul li a {
+  margin-top: 20px;
+}
+main .contact-us .contact-form {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(55, 54, 54, 0.654);
+}
+main .contact-us .contact-form h2 {
+  margin-bottom: 20px;
+  color: var(them-titel);
+}
+main .contact-us .contact-form form label {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+main .contact-us .contact-form form input {
+  background-color: transparent;
+  width: 100%;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+main .contact-us .contact-form form input::-moz-placeholder {
+  color: inherit;
+  font-size: 16px;
+}
+main .contact-us .contact-form form input:-ms-input-placeholder {
+  color: inherit;
+  font-size: 16px;
+}
+main .contact-us .contact-form form input::placeholder {
+  color: inherit;
+  font-size: 16px;
+}
+main .contact-us .contact-form form .pages-link {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 80px !important;
+}/*# sourceMappingURL=contact-us.css.map */

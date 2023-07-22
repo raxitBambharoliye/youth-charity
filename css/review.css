@@ -1,0 +1,51 @@
+@import url(them.css);
+main .reviews-form {
+  background-color: rgba(236, 159, 11, 0.0705882353);
+}
+main .reviews-form h3 {
+  font-weight: bold;
+  color: var(--sub-titel);
+}
+main .reviews-form input,
+main .reviews-form textarea {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 10px 0;
+  border: 1px solid rgba(134, 134, 134, 0.604);
+  border-radius: 5px;
+}
+main .reviews-form input[type=password] {
+  margin-bottom: 17px !important;
+}
+main .reviews-form i {
+  color: #FFD700;
+  font-size: 18px;
+}
+main .reviews-form i:hover {
+  font-weight: 900;
+}
+main .review .review-inner .review-item {
+  padding: 20px;
+  border: 1px solid rgba(150, 150, 150, 0.568);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(166, 166, 166, 0.357);
+  margin: 15px 0;
+}
+main .review .review-inner .review-item img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .review .review-inner .review-item h4 {
+  color: var(--them-titel);
+  font-weight: 600;
+}
+main .review .review-inner .review-item i {
+  color: #FFD700;
+}
+main .review .review-inner .review-item p {
+  color: var(--text-gray);
+  margin: 0;
+}/*# sourceMappingURL=review.css.map */

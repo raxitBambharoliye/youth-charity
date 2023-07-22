@@ -1,0 +1,86 @@
+@import url(them.css);
+
+main {
+    .needs-banner {
+        img {
+            filter: brightness(40%);
+        }
+
+        h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .needs-inner {
+        .needs-items {
+            border: 1px solid #a0a0a081;
+            border-radius: 8px;
+            box-shadow: 0 0 8px #a0a0a046;
+            margin: 10px;
+            h4 {
+                color: var(--sub-titel);
+            }
+
+            p {
+                color: var(--text-gray);
+            }
+        }
+    }
+}
+
+.modal{
+    z-index: 9999 !important;
+    .modal-dialog{
+        background-color: rgb(229, 232, 240);
+        border-radius: 8px;
+        .modal-header{
+            h2{
+                font-size: 30px;
+                margin-bottom: 0;
+            }
+        }
+        .modal-body{
+            .modal-item{
+                background-color: #FFF;
+                margin: 15PX 0;
+                box-shadow: 0 0 5px rgba(177, 173, 173, 0.459);
+                padding: 15px;
+                border-radius: 8px;
+                span{
+                    color: #1b1bf4;
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;
+                    text-align: center;
+                    line-height: 15px;
+                    font-size: 18px;
+                    border-radius: 50%;
+                    border: 1px solid #1b1bf4;
+                    vertical-align: middle;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-size: 16px;
+                    color: var(--text-gray);
+                }
+                .upi-item{
+                    margin-right: 15px;
+                    margin-top: 15px;
+                    text-align: center;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                    object-fit: contain;
+                }
+                a{
+                    display: inline-block;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}

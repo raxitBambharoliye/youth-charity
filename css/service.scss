@@ -1,0 +1,97 @@
+@import url(them.css);
+
+main{
+    .service-banner{
+        background-image:url(../image/service/services-bg.png) ;
+        padding: 200px 0 250px;
+        text-align: center;
+        position: relative;
+    }
+    .service-slider{
+            .owl-stage-outer{
+                padding: 20px 0;
+            }
+            .service-item {
+                position: relative;
+                scroll-snap-align: center;
+                border-radius: 10px;
+                box-shadow: 0 0 15px #474747d1;
+                overflow: hidden;
+                // margin: 20px;
+                .service-item-content {
+                    background-color: #383838d1;
+                    text-align: center;
+                    width: 100%;
+                    transition: all .4s;
+                    position: absolute;
+                    bottom: 0;
+                    height: 35px;
+
+                    h3 {
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #fff;
+                    }
+
+                    i {
+                        transition: all .4s ease-in-out;
+                        color: #fff;
+                        font-size: 0;
+                    }
+                }
+
+                &:hover {
+                    .service-item-content {
+                        height: 100%;
+
+                        i {
+                            font-size: 50px;
+                            margin-bottom: 10px;
+                            overflow: hidden;
+                        }
+                    }
+                }
+            }
+        
+    }
+    .service-about{
+        h3{
+            font-size: 41px;
+            font-weight: bold;
+            color:var(--sub-titel);
+        }
+        p{
+            color: var(--text-gray);
+            line-height: 1.7;
+             font-weight: 400;
+        }
+    img{
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(109, 109, 109, 0.543);
+    }
+    }
+    .help{
+        background-color: #f0f8ff;
+        h2{
+            margin-bottom: 50px;
+            color: var(--sub-titel);
+        }
+        .row{
+            overflow: auto;
+            scroll-snap-type: x mandatory;
+        }
+        .help-item{
+            scroll-snap-align: center;
+            border-right: 1px solid var(--text-gray);
+            i{
+                font-size: 70px;
+                margin-bottom: 15px;
+                color: var(--text-gray);
+            }
+            h3{
+                font-size: 30px;
+                color: var(--them-titel);
+            }
+        }
+    }
+}

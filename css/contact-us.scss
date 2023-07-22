@@ -1,0 +1,100 @@
+@import url(them.css);
+
+ 
+main{
+    .contact-banner{
+        background-image: url(../image/contact/contact-us-bg.png);
+        background-size: cover;
+        padding: 200px 0 ;
+    }
+
+    .address{
+        margin: 50px 0;
+        .address-item{
+            padding: 30px;
+            margin: 10px 0;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 8px rgba(136, 136, 136, 0.519);
+            h3{
+                color: var(--sub-titel);
+                font-size: 30px;
+                font-weight: 600;
+                margin-bottom: 25px;
+            }
+            ul{
+                li{
+                    color: var(--text-gray);
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                    i{
+                        margin-right: 8px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+    // contact us
+    .contact-us {
+        padding: 100px 0 ;
+        background-image: url(../image/home/contact-us-bg.jpg);
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        margin-bottom: 50px;
+        ul{
+            margin-left: 20px;
+            li{
+                margin-top: 20px ;
+                h3{
+                    font-size: 25px;
+                    i{
+                        margin-right: 10px;
+                        font-size: 22px;
+                    }
+                }
+                a{
+                    margin-top: 20px;
+                }
+            }
+        }
+        .contact-form{
+        background: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px  rgba(55, 54, 54, 0.654);
+            h2{
+                margin-bottom: 20px;
+                color: var(them-titel);
+            }
+           form{
+            label{
+                margin-top: 15px;
+                font-size: 18px;
+                font-weight: 500;
+                color: #000;
+            }
+            input{
+                background-color: transparent;
+                width: 100%;
+                margin: 10px 0 ;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #000 ;
+                &::placeholder{
+                    color: inherit;
+                    font-size: 16px;
+                }
+            }
+            .pages-link{
+                display: inline-block;
+                margin-top: 15px;
+                margin-bottom: 20px;    
+            }
+           }
+        }
+    }
+}
+footer{
+    margin-top: 80px !important;
+}

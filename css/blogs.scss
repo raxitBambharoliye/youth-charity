@@ -1,0 +1,37 @@
+@import url(them.css);
+
+main {
+    .blogs-banner {
+        background-image: url(../image/service/services-bg.png);
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 200px 0 300px;
+        text-align: center;
+        position: relative;
+
+        h2 {
+            font-size: 70px;
+        }
+    }
+    .col-md-6{
+        padding-bottom: 20px !important;
+    }
+    .blogs {
+        transform: translatey(-200px);
+        .news-item{
+            margin: 10px;
+        }
+    }
+
+    .news  {
+        transform: translatey(-150px);
+
+        .blogs-inner {
+            margin-top: 25px;
+
+            .blogs-item {
+                margin: 10px;
+            }
+        }
+    }
+}
